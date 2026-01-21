@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sab = new Scanner(System.in);
+
+        double f = sab.nextDouble();  
+        int sq = sab.nextInt();      
+        int base = sab.nextInt();     
+        int power = sab.nextInt();   
+
+        System.out.println((int)Math.floor(f));
+        System.out.println((int)Math.ceil(f));
+        System.out.println((int)Math.sqrt(sq));
+        System.out.println((int)Math.pow(base, power));
+
+        sab.close();
+    }
+}

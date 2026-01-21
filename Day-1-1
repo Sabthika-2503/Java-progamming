@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sab = new Scanner(System.in);
+        int num = sab.nextInt();
+        float fnum = sab.nextFloat();
+        System.out.println(num);
+        System.out.printf("%.2f",fnum);
+        sab.close();
+    }
+}

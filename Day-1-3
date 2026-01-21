@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sab = new Scanner(System.in);
+
+        String input = sab.nextLine();
+        String language = input.split(" ")[0];
+
+        System.out.println("May I know how to learn " + language + "!!!...");
+        sab.close();
+    }
+}
